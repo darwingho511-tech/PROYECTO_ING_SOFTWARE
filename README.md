@@ -18,3 +18,5 @@ notas parciales.
 3. Portal de Acompañamiento: Agendamiento automatizado de tutorías académicas con docentes y citas psicopedagógicas con Bienestar Estudiantil.
 
 4. Dashboard Analítico: Visualizaciones gráficas para Directores de Programa para inspeccionar la tasa de deserción proyectada por cohorte y la efectividad de las tutorías.
+
+<img width="1039" height="283" alt="image" src="https://github.com/user-attachments/assets/890806dc-7e38-4181-91a3-74ded065d372" />
