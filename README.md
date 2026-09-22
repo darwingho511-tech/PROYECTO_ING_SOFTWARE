@@ -2,6 +2,7 @@
 
 
 Logo de equipo:
+
 <img width="700" height="700" alt="logo github" src="https://github.com/user-attachments/assets/11d4ceae-76e1-4f75-a016-0a6f5e7ef6e0" />
 
 SATE-UNIAJC
