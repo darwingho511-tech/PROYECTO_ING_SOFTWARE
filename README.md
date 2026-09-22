@@ -2,7 +2,7 @@
 
 
 Logo de equipo:
-<img width="1254" height="1254" alt="logo github" src="https://github.com/user-attachments/assets/11d4ceae-76e1-4f75-a016-0a6f5e7ef6e0" />
+<img width="700" height="700" alt="logo github" src="https://github.com/user-attachments/assets/11d4ceae-76e1-4f75-a016-0a6f5e7ef6e0" />
 
 SATE-UNIAJC
 Para consolidar los aprendizajes prácticos de Ingeniería de Software I de manera profesional, durante el semestre todos los equipos Scrum constituidos desarrollarán el proyecto: SATE-UNIAJC: Sistema de Alertas Tempranas y Acompañamiento Estudiantil. Este sistema responde a una necesidad crítica de retención estudiantil en la institución, sustituyendo el monitoreo manual de bajo impacto de la Decanatura.
