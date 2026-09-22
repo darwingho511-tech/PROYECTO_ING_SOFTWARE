@@ -1,12 +1,38 @@
-# ACTA DE CONSTITUCIÓN DE EQUIPO SCRUM - SATE-UNIAJC
+## ACTA DE CONSTITUCIÓN DE EQUIPO SCRUM - SATE-UNIAJC
 
-**Nombre del Equipo Scrum:** Siystem 4
-**Proyecto:** SATE-UNIAJC
-**Repositorio:** https://github.com/darwingho511-tech/PROYECTO_ING_SOFTWARE.git
+<b>Nombre del Equipo Scrum:</b> Siystem 4<br>
+<b>Proyecto:</b> SATE-UNIAJC<br>
+<b>Repositorio:</b> https://github.com/darwingho511-tech/PROYECTO_ING_SOFTWARE.git<br><br>
 
-| Nombre Completo | Usuario GitHub | Rol Inicial (Sprint 1) | Firma Digital |
-| :--- | :--- | :--- | :--- |
-| Daniela Leiton Castillo | @Daninisk | Product Owner (PO) | Daniela |
-| Carlos Eduardo Serrano Rojas | @SRCarloS06 | Scrum Master (SM) | Carlos |
-| Darwing David Henao Orozco | @Darwingho511 | Developer 1 | Darwing |
-| Lorena Yasmin Ortiz | @aojl60166-ops | Developer 2 | lorena |
+<table border="1">
+  <tr>
+    <th>Nombre Completo</th>
+    <th>Usuario GitHub</th>
+    <th>Rol Inicial (Sprint 1)</th>
+    <th>Firma Digital</th>
+  </tr>
+  <tr>
+    <td>Daniela Leiton Castillo</td>
+    <td>@Daninisk</td>
+    <td>Product Owner (PO)</td>
+    <td>Daniela</td>
+  </tr>
+  <tr>
+    <td>Carlos Eduardo Serrano Rojas</td>
+    <td>@SRCarloS06</td>
+    <td>Scrum Master (SM)</td>
+    <td>Carlos</td>
+  </tr>
+  <tr>
+    <td>Darwing David Henao Orozco</td>
+    <td>@Darwingho511</td>
+    <td>Developer 1</td>
+    <td>Darwing</td>
+  </tr>
+  <tr>
+    <td>Lorena Yasmin Ortiz</td>
+    <td>@aojl60166-ops</td>
+    <td>Developer 2</td>
+    <td>lorena</td>
+  </tr>
+</table>
