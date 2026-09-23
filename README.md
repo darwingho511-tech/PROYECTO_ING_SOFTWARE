@@ -22,3 +22,5 @@ notas parciales.
 
 4. Dashboard Analítico: Visualizaciones gráficas para Directores de Programa para inspeccionar la tasa de deserción proyectada por cohorte y la efectividad de las tutorías.
 
+Nuestra visión como equipo (Siystem 4):
+Queremos crear una herramienta sencilla y útil que ayude a que ningún estudiante de la UNIAJC se quede sin apoyo cuando lo necesite. Como grupo, nuestro objetivo es aprender a trabajar como un equipo real de desarrollo y entregar un sistema bien hecho del que nos sintamos orgullosos.
