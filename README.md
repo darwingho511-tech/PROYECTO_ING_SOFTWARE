@@ -24,3 +24,35 @@ notas parciales.
 
 Nuestra visión como equipo (Siystem 4):
 Queremos crear una herramienta sencilla y útil que ayude a que ningún estudiante de la UNIAJC se quede sin apoyo cuando lo necesite. Como grupo, nuestro objetivo es aprender a trabajar como un equipo real de desarrollo y entregar un sistema bien hecho del que nos sintamos orgullosos.
+
+Historias de Usuario
+
+HU-01
+Como usuario del sistema, quiero iniciar sesión con mi correo institucional y contraseña, para acceder a mis funciones según mi rol (Docente, Estudiante, Director)
+
+HU-02
+Como usuario, quiero recuperar mi contraseña mediante un token enviado a mi correo, para restablecer mi acceso en caso de olvido.
+
+HU-03
+Como administrador, quiero gestionar los roles y permisos de los usuarios, para garantizar la seguridad del sistema.
+
+HU-04
+Como docente, quiero registrar la asistencia diaria de mis clases, para llevar el control en tiempo real de las inasistencias.
+
+HU-05
+Como docente, quiero registrar las calificaciones parciales de las asignaturas, para actualizar el rendimiento académico.
+
+HU-06
+Como director de programa, quiero visualizar alertas rojas cuando un estudiante supere el 15% de inasistencias, para intervenir preventivamente.
+
+HU-07 
+Como director, quiero recibir alertas amarillas por estudiantes con promedio ponderado inferior a 3.0, para citarlos a asesoría.
+
+HU-08 
+Como estudiante en riesgo, quiero solicitar una tutoría académica desde el portal móvil, para recibir apoyo antes de los parciales.
+
+HU-09
+Como tutor/psicólogo, quiero agendar y confirmar citas de acompañamiento, para hacer seguimiento a los estudiantes asignados. 
+
+HU-10
+Como director, quiero exportar reportes estadísticos de retención y deserción en PDF/Excel, para presentar a la Decanatura. 
