@@ -56,3 +56,7 @@ Como tutor/psicólogo, quiero agendar y confirmar citas de acompañamiento, para
 
 HU-10
 Como director, quiero exportar reportes estadísticos de retención y deserción en PDF/Excel, para presentar a la Decanatura. 
+
+<img width="382" height="382" alt="Caso Sate-uniajc" src="https://github.com/user-attachments/assets/ca874b05-2c97-428c-8181-1b86f39a5133" />
+<img width="758" height="577" alt="Diagrama de actividades drawio" src="https://github.com/user-attachments/assets/748088bc-9888-43cc-ac3f-f37d63fcdf10" />
+
