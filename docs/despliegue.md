@@ -2,20 +2,20 @@
 
 ```mermaid
 graph TD
-subgraph ClientNode [Nodo Cliente]
-    UI [Interfaz de Usuario SATE]
+subgraph ClientNode ["Nodo Cliente"]
+    UI["Interfaz Web"]
 end
 
-subgraph GitHubNode [Nodo CI CD]
-    Runner [Runner Linux Maven JDK 17]
+subgraph GitHubNode ["Nodo CI CD"]
+    Runner["GitHub Actions Runner"]
 end
 
-subgraph AppServerNode [Nodo Servidor de Aplicacion]
-    MVC [Controladores y Servicios SATE Core]
+subgraph AppServerNode ["Servidor de Aplicacion"]
+    MVC["SATE Core Engine"]
 end
 
-subgraph DBNode [Nodo Servidor de Base de Datos]
-    DB [(PostgreSQL Data Store)]
+subgraph DBNode ["Base de Datos"]
+    DB[(Data Store)]
 end
 
 UI --> MVC
