@@ -4,7 +4,6 @@ architecture-beta
     group github(cloud)[Entorno DevOps CI/CD] 
     group servidor(server)[Servidor de Aplicación - Staging] 
     group bd(database)[Servidor de Datos] 
- 
     service browser(internet) in cliente [Navegador Web / App] 
     service runner(server) in github [GitHub Actions Runner] 
     service app(server) in servidor [SATE Application Server - Java 17 Spring] 
