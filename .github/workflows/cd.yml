@@ -1,0 +1,31 @@
+name: Continuous Delivery (CD) Pipeline - SATE UNIAJC 
+ 
+on: 
+  push: 
+    branches: [ main ] # Se dispara al fusionar a main 
+ 
+jobs: 
+  build-and-deploy: 
+    runs-on: ubuntu-latest
+    steps: 
+    - name: 1. Checkout del Código Fuente 
+      uses: actions/checkout@v4 
+ 
+    - name: 2. Configurar Entorno JDK 17 
+      uses: actions/setup-java@v3 
+      with: 
+        java-version: '17' 
+        distribution: 'temurin' 
+ 
+    - name: 3. Ejecutar Suite de Pruebas Unitarias (TDD) 
+      run: mvn clean test 
+ 
+    - name: 4. Empaquetar Artefacto ejecutable (.JAR) 
+      run: mvn package -DskipTests 
+ 
+    - name: 5. Despliegue Simulado a Staging / Render 
+      run: | 
+        echo "=== INICIANDO DESPLIEGUE CONTINUO (CD) ===" 
+        echo "Artefacto target/sate-uniajc-1.0.jar generado correctamente." 
+        echo "Desplegando en el entorno de Staging SATE-UNIAJC..." 
+        echo "Despliegue completado con éxito (Status: 200 OK)."
