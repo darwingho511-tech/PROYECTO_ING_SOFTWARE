@@ -1,4 +1,4 @@
-```mermaid 
+mermaid 
 sequenceDiagram 
 autonumber 
 actor Docente as Docente / Sistema 
@@ -29,4 +29,4 @@ participant Notificador as ServicioNotificacion
     Gestor-->>Controller: listaAlertasGeneradas 
     deactivate Gestor 
     Controller-->>Docente: Respuesta HTTP 200 (OK + Alertas) 
-```
+
