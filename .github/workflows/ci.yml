@@ -19,6 +19,20 @@ jobs:
           java-version: '17'
           distribution: 'temurin'
 
-      - name: Compilar y Ejecutar Pruebas Unitarias (JUnit 5)
-        working-directory: .
-        run: mvn clean test -f pom.xml
+      - name: Diagnosticar carpetas y ejecutar Maven
+        run: |
+          echo "=== Ubicación actual ==="
+          pwd
+          echo "=== Archivos en este nivel ==="
+          ls -la
+          echo "=== Buscando pom.xml ==="
+          find . -maxdepth 3 -name "pom.xml"
+          
+          POM_FILE=$(find . -name "pom.xml" -not -path "*/target/*" | head -n 1)
+          if [ -z "$POM_FILE" ]; then
+            echo "ERROR: No se encontró ningún pom.xml en el repositorio."
+            exit 1
+          fi
+          
+          echo "Ejecutando Maven desde: $POM_FILE"
+          mvn clean test -f "$POM_FILE"
