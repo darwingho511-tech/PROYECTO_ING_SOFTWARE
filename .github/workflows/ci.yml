@@ -20,4 +20,5 @@ jobs:
           distribution: 'temurin'
 
       - name: Compilar y Ejecutar Pruebas Unitarias (JUnit 5)
+        working-directory: PROYECTO_ING_SOFTWARE
         run: mvn clean test
