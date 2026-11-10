@@ -20,4 +20,4 @@ jobs:
           distribution: 'temurin'
 
       - name: Compilar y Ejecutar Pruebas Unitarias (JUnit 5)
-        run: mvn clean test
+        run: mvn clean test -f PROYECTO_ING_SOFTWARE/pom.xml
