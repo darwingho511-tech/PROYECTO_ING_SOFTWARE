@@ -19,20 +19,18 @@ jobs:
           java-version: '17'
           distribution: 'temurin'
 
-      - name: Diagnosticar carpetas y ejecutar Maven
+      - name: Buscar pom.xml y compilar
         run: |
-          echo "=== Ubicación actual ==="
-          pwd
-          echo "=== Archivos en este nivel ==="
-          ls -la
-          echo "=== Buscando pom.xml ==="
-          find . -maxdepth 3 -name "pom.xml"
+          # Busca cualquier archivo llamado pom.xml en el repositorio
+          POM_PATH=$(find . -name "pom.xml" | head -n 1)
           
-          POM_FILE=$(find . -name "pom.xml" -not -path "*/target/*" | head -n 1)
-          if [ -z "$POM_FILE" ]; then
-            echo "ERROR: No se encontró ningún pom.xml en el repositorio."
+          if [ -z "$POM_PATH" ]; then
+            echo "¡Atención! No se encuentra el archivo pom.xml en ninguna carpeta."
             exit 1
           fi
           
-          echo "Ejecutando Maven desde: $POM_FILE"
-          mvn clean test -f "$POM_FILE"
+          echo "Pom encontrado en: $POM_PATH"
+          # Extrae la carpeta donde está el pom para usarla de directorio de trabajo
+          DIR_PATH=$(dirname "$POM_PATH")
+          
+          mvn clean test -f "$POM_PATH"
